@@ -1,0 +1,1 @@
+# powershell-script-to-azure-ad-last-signs
