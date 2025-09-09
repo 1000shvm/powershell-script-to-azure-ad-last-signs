@@ -25,7 +25,7 @@ It helps administrators track when users last signed in, which is useful for **a
 ### 1. App Registration in Microsoft Azure AD
 You must register an application in your tenant to use client credentials:
 
-1. Go to **[Entra Admin Center](https://portal.azure.com/)**.  
+1. Go to **[Azure Admin Center](https://portal.azure.com/)**.  
 2. Navigate to:  
    **Identity → Applications → App registrations → New registration**  
 3. Record the following:
