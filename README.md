@@ -1,6 +1,6 @@
 # 🔐 Microsoft Graph User Sign-In Activity Export Script
 
-This PowerShell script automates the collection of **user sign-in activity** from Microsoft Entra ID (Azure AD) using the **Microsoft Graph API**.  
+This PowerShell script automates the collection of **user sign-in activity** from Microsoft Azure AD using the **Microsoft Graph API**.  
 It helps administrators track when users last signed in, which is useful for **auditing, compliance, inactive account cleanup, and security monitoring**.  
 
 ---
@@ -22,10 +22,10 @@ It helps administrators track when users last signed in, which is useful for **a
 
 ## 🛠️ Prerequisites
 
-### 1. App Registration in Microsoft Entra ID
+### 1. App Registration in Microsoft Azure AD
 You must register an application in your tenant to use client credentials:
 
-1. Go to **[Entra Admin Center](https://entra.microsoft.com/)**.  
+1. Go to **[Entra Admin Center](https://portal.azure.com/)**.  
 2. Navigate to:  
    **Identity → Applications → App registrations → New registration**  
 3. Record the following:
@@ -167,17 +167,8 @@ Example output:
 /Export-UserSignIns
 │── Export-UserSignIns.ps1   # Main script
 │── README.md                # Documentation
-│── TW.csv                   # Input (user list) - ignored in .gitignore
-│── TW2.csv                  # Output (sign-in activity report)
 ```
 
----
-
-## 📸 Screenshots (Optional)
-> Add screenshots of:
-- **Entra App Registration**
-- **PowerShell run output**
-- **CSV file in Excel**
 
 ---
 
